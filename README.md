@@ -20,3 +20,8 @@ Collection of CSS hacks with use cases.
     @media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-device-pixel-ratio: 1.25), only screen and ( min-resolution: 200dpi), only screen and ( min-resolution: 1.25dppx) {
       -webkit-font-smoothing: subpixel-antialiased; 
     } 
+
+## Break at newline characters
+Useful when using a plain text field to series of items.
+
+	white-space: pre-line;
