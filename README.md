@@ -21,6 +21,9 @@ Collection of CSS hacks with use cases.
       -webkit-font-smoothing: subpixel-antialiased; 
     } 
 
+## iOS Momentum Scrolling
+     -webkit-overflow-scrolling: touch
+
 ## Break at newline characters
 Useful when using a plain text field to series of items.
 
