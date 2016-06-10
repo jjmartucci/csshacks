@@ -13,6 +13,10 @@ Collection of CSS hacks with use cases.
   	  display: none;
     }
     
+## Change color of link on tap
+    -webkit-tap-highlight-color: red
+
+    
 ## Sub-pixel font smoothing [source](https://www.mobomo.com/2014/5/better-font-smoothing-in-chrome-on-mac-os-x/)
 
     html {-webkit-font-smoothing: antialiased; } 
