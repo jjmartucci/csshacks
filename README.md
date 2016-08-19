@@ -36,9 +36,10 @@ Useful when using a plain text field to series of items.
 ## Break inline text at every word
 Useful if you want text wrapped in a span to break to a new line at every word.
 
-	.parent{
+	.parent {
 		width: 200px;
 	}
-	.child{
+	
+	.child {
 		word-spacing: 200px; // for fluid layouts, you can use something like 9999999px
 	}
