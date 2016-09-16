@@ -43,3 +43,13 @@ Useful if you want text wrapped in a span to break to a new line at every word.
 	.child {
 		word-spacing: 200px; // for fluid layouts, you can use something like 9999999px
 	}
+
+## Prevent User Select and User Drag.
+Not prefixed by autoprefixer as it's not standard.
+
+	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;
+  	-webkit-user-drag: none;
+  	user-drag: none;
