@@ -4,8 +4,8 @@ Collection of CSS hacks with use cases.
 ## Hide play button on iOS videos
 
     video::-webkit-media-controls-start-playback-button {
-		  display: none !important;
-	  }
+        display: none !important;
+    }
 	  
 ## Hide select arrow in IE
 
