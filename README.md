@@ -57,6 +57,6 @@ Not prefixed by autoprefixer as it's not standard.
 ## Prevent Zoom on iOS inputs when text-size is too small
     @media screen and (-webkit-min-device-pixel-ratio: 0) {
 	    select:focus, textarea:focus, input:focus {
-		font-size: 16px;
+	        font-size: 16px;
 	    }
     }
